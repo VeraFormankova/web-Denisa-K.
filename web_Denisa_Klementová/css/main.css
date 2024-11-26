@@ -1,0 +1,35 @@
+:root {
+    --primary-color: #0a1118;
+    --primary-color-highlight: #233d54;
+    --bs-body-bg: #f8f0f7;
+    --bs-body-font-family: 'Montserrat', sans-serif;
+}
+
+
+.header {
+    z-index: 2;
+}
+
+#navbar {
+    position: fixed;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #f8f0f7;
+    z-index: 4;
+}
+
+.dropdown-nav__closeNavBtn {
+    position: absolute;
+    top: 20px;
+    right: 16px;
+    background-color: #f8f0f7;
+
+}
+
+.video-wrapper {
+    display: flex;
+    justify-content: center;  
+    align-items: center;      
+}
